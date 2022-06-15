@@ -218,7 +218,7 @@ address {
 .footer-social-list {
   display: flex;
 }
-.footer-social-list-item {
+.footer-social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
